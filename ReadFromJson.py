@@ -1,8 +1,8 @@
 import json
 from pprint import pprint
 
-FILENAME_IN = "messageLen.json"
-FILENAME_OUT = "messagesLen.txt"
+FILENAME_IN = "message.json"
+FILENAME_OUT = "messages.txt"
 with open(FILENAME_IN) as f:
     data = json.load(f)
 
